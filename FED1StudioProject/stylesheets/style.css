@@ -1,4 +1,65 @@
 ﻿
- main {
-    background: red;
+h1, h2 {
+    color: Red;
+    font: bold;
+    
 }
+
+header, main, footer {
+    background-color: Lightgray;
+}
+
+h3 {
+    color: Black;
+}
+
+p {
+    color: Black;
+}
+
+li, footer {
+    color: white;
+}
+header {
+    color: red;
+    font-size: 34px;
+}
+header p {
+    color: red;
+    font-size: 24px;
+    
+}
+
+h2 {
+   text-decoration: underline; 
+}
+nav ul {
+    color: cornflowerblue;
+    background-color: black;
+    padding: 0;
+    border-top:  dotted black;
+    border-bottom: dotted black;
+}
+article h2 {
+    color: white;
+    background-color: black;
+    padding: 0;
+    border-top: cornflowerblue;
+    border-bottom: solid cornflowerblue;
+}
+aside h2 {
+    color: white;
+    background-color: black;
+    padding: 0;
+    border-top: cornflowerblue;
+    border-bottom: solid cornflowerblue;
+}
+ol li {
+    color: forestgreen ;
+}
+
+
+
+
+   
+
