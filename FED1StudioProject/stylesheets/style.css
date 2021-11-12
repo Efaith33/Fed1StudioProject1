@@ -1,5 +1,9 @@
 ﻿
-h1, h2 {
+main {
+    margin: 25px
+}
+h1, h2, header {
+    text-align: center;
     color: Red;
     font: bold;
     
@@ -21,6 +25,7 @@ li, footer {
     color: white;
 }
 header {
+    font-family: Jokerman;
     color: red;
     font-size: 34px;
 }
@@ -31,7 +36,7 @@ header p {
 }
 
 h2 {
-   text-decoration: underline; 
+    text-decoration: underline; 
 }
 nav ul {
     color: cornflowerblue;
@@ -57,6 +62,8 @@ aside h2 {
 ol li {
     color: forestgreen ;
 }
+
+
 
 
 
