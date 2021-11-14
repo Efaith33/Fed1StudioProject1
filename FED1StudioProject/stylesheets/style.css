@@ -25,7 +25,7 @@ li, footer {
     color: white;
 }
 header {
-    font-family: Jokerman;
+    font-family:'Times New Roman', Times, serif;
     color: red;
     font-size: 34px;
 }
@@ -62,6 +62,34 @@ aside h2 {
 ol li {
     color: forestgreen ;
 }
+nav li:hover {
+    
+    background-color: darkblue;
+}
+
+nav ul li {
+    text-decoration-color: ;
+    display: inline-block;
+}
+
+    nav ul li a {
+        color: red;
+        padding: .4em 1em;
+        display: block;
+    }
+   
+    #Contacts {
+        color: cornflowerblue;
+    }
+    .personalinfo {
+        text-align:center;
+       
+    }
+    .socialmediainfo {
+        text-align: center;
+   
+    }
+
 
 
 
