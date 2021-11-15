@@ -64,7 +64,7 @@ ol li {
 }
 nav li:hover {
     
-    background-color: darkblue;
+    background-color: darkorange;
 }
 
 nav ul li {
@@ -73,7 +73,7 @@ nav ul li {
 }
 
     nav ul li a {
-        color: red;
+        color: black;
         padding: .4em 1em;
         display: block;
     }
@@ -88,6 +88,9 @@ nav ul li {
     .socialmediainfo {
         text-align: center;
    
+    }
+    nav ul {
+        background-color: saddlebrown;
     }
 
 
