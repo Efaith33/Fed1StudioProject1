@@ -38,7 +38,7 @@ header p {
 h2 {
     text-decoration: underline; 
 }
-nav ul {
+nav  ul {
     color: cornflowerblue;
     background-color: black;
     padding: 0;
@@ -68,7 +68,7 @@ nav li:hover {
 }
 
 nav ul li {
-    text-decoration-color: ;
+    
     display: inline-block;
 }
 
@@ -91,6 +91,13 @@ nav ul li {
     }
     nav ul {
         background-color: saddlebrown;
+    }
+    footer {
+        border-top: dotted black;
+        border-bottom: dotted black;
+    }
+    .learn {
+        text-align: center;
     }
 
 
