@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\blankchalkboard.jpg" />
+    <Content Include="images\bookdeskchalkboad.jpg" />
     <Content Include="images\books.jpg" />
     <Content Include="images\chalkboard.jpg" />
     <Content Include="images\cpubooks.jpg" />
@@ -87,7 +88,11 @@
     <Content Include="images\guy8.jpg" />
     <Content Include="images\guy9.jpg" />
     <Content Include="images\lightbulb.jpg" />
+    <Content Include="images\mandelaquote.jpg" />
+    <Content Include="images\openbookcity.jpg" />
+    <Content Include="images\openbooktree.jpg" />
     <Content Include="images\pencilpaperfavicon.ico" />
+    <Content Include="images\pplthoughts.jpg" />
     <Content Include="images\weekcalendar.jpg" />
     <Content Include="Resources.html" />
     <Content Include="Contact.html" />

@@ -51,8 +51,10 @@ header {
         font-size: 24px;
     }
 
-
-
+aside {
+    float: right;
+}
+    
 h2 {
     text-decoration: underline;
 }
@@ -88,9 +90,10 @@ nav ul li {
         padding: .4em 1em;
         display: block;
     }
-    section b {
-        font-size: 24px;
-    }
+
+section b {
+    font-size: 24px;
+}
 
 #Contacts {
     color: blue;
@@ -103,10 +106,10 @@ nav ul li {
 .socialmediainfo {
     text-align: center;
 }
+
 .headingstyle {
     font-style: italic;
     font-size: 32px;
-    
 }
 
 nav ul {
@@ -123,6 +126,7 @@ footer p a:hover {
     background-color: darkblue;
     color: black;
 }
+
 footer {
     text-align: center;
 }
