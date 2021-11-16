@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\blankchalkboard.jpg" />
     <Content Include="images\books.jpg" />
+    <Content Include="images\chalkboard.jpg" />
     <Content Include="images\cpubooks.jpg" />
     <Content Include="images\educationblocks.jpg" />
     <Content Include="images\girl1.jpg" />
@@ -75,7 +77,6 @@
     <Content Include="images\girl3.jpg" />
     <Content Include="images\globeedu.jpg" />
     <Content Include="images\gradfig.jpg" />
-    <Content Include="images\Gradfigure.html" />
     <Content Include="images\guy1.jpg" />
     <Content Include="images\guy2.jpg" />
     <Content Include="images\guy3.jpg" />
@@ -88,9 +89,6 @@
     <Content Include="images\lightbulb.jpg" />
     <Content Include="images\pencilpaperfavicon.ico" />
     <Content Include="images\weekcalendar.jpg" />
-    <Content Include="images\weelcalendar.jpg" />
-    <Content Include="images\worddisplay.html" />
-    <Content Include="images\worldedu.html" />
     <Content Include="Resources.html" />
     <Content Include="Contact.html" />
     <Content Include="TheTeam.html" />
@@ -103,7 +101,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\cpuhat.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -113,6 +110,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Fonts.css\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

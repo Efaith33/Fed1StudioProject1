@@ -1,110 +1,128 @@
 ﻿
+
+#headerOverlay {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/gradfig.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
 main {
-    margin: 25px
+    font-size: 30px;
+    color: black;
+    background-repeat: repeat;
+    background-size: cover;
 }
-h1, h2, header {
+
+article h2 {
+    font-size: 30px;
+}
+
+
+
+h2, header {
     text-align: center;
-    color: Red;
+    color: black;
     font: bold;
-    
-}
-
-header, main, footer {
-    background-color: Lightgray;
-}
-
-h3 {
-    color: Black;
-}
-
-p {
-    color: Black;
 }
 
 li, footer {
-    color: white;
-}
-header {
-    font-family:'Times New Roman', Times, serif;
-    color: red;
-    font-size: 34px;
-}
-header p {
-    color: red;
-    font-size: 24px;
-    
+    color: black;
 }
 
+h1 {
+    color: yellow;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 34px;
+}
+
+    header p {
+        color: yellow;
+        font-size: 24px;
+    }
+
+
+
 h2 {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
-nav  ul {
-    color: cornflowerblue;
-    background-color: black;
-    padding: 0;
-    border-top:  dotted black;
-    border-bottom: dotted black;
-}
+
+
+
 article h2 {
-    color: white;
-    background-color: black;
+    font-size: 45px;
+    color: black;
     padding: 0;
-    border-top: cornflowerblue;
-    border-bottom: solid cornflowerblue;
 }
+
 aside h2 {
-    color: white;
-    background-color: black;
+    font-size: 45px;
+    color: black;
     padding: 0;
-    border-top: cornflowerblue;
-    border-bottom: solid cornflowerblue;
 }
+
 ol li {
-    color: forestgreen ;
+    color: blue;
 }
+
 nav li:hover {
-    
-    background-color: darkorange;
+    background-color: darkblue;
 }
 
 nav ul li {
-    
     display: inline-block;
 }
 
     nav ul li a {
-        color: black;
+        color: blue;
         padding: .4em 1em;
         display: block;
     }
-   
-    #Contacts {
-        color: cornflowerblue;
-    }
-    .personalinfo {
-        text-align:center;
-       
-    }
-    .socialmediainfo {
-        text-align: center;
-   
-    }
-    nav ul {
-        background-color: saddlebrown;
-    }
-    footer {
-        border-top: dotted black;
-        border-bottom: dotted black;
-    }
-    .learn {
-        text-align: center;
+    section b {
+        font-size: 24px;
     }
 
+#Contacts {
+    color: blue;
+}
+
+.personalinfo {
+    text-align: center;
+}
+
+.socialmediainfo {
+    text-align: center;
+}
+.headingstyle {
+    font-style: italic;
+    font-size: 32px;
+    
+}
+
+nav ul {
+    text-decoration: underline;
+}
 
 
+.learn {
+    text-align: center;
+}
 
-
-
-
-   
-
+footer p a:hover {
+    color: black;
+    background-color: darkblue;
+    color: black;
+}
+footer {
+    text-align: center;
+}
