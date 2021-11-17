@@ -67,10 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\blankchalkboard.jpg" />
+    <Content Include="images\blackchalkboard.jpg" />
     <Content Include="images\bookdeskchalkboad.jpg" />
     <Content Include="images\books.jpg" />
     <Content Include="images\chalkboard.jpg" />
+    <Content Include="images\corkboard.jpg" />
     <Content Include="images\cpubooks.jpg" />
     <Content Include="images\educationblocks.jpg" />
     <Content Include="images\girl1.jpg" />

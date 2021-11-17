@@ -1,11 +1,11 @@
 ﻿
 
 #headerOverlay {
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: 0;
     padding: 0;
 }
+
+
 
 body {
     background: url(../images/gradfig.jpg) no-repeat center center fixed;
@@ -16,8 +16,6 @@ body {
 main {
     font-size: 30px;
     color: black;
-    background-repeat: repeat;
-    background-size: cover;
 }
 
 article h2 {
@@ -28,7 +26,7 @@ article h2 {
 
 h2, header {
     text-align: center;
-    color: black;
+    color: whitesmoke;
     font: bold;
 }
 
@@ -40,37 +38,45 @@ h1 {
     color: yellow;
 }
 
+h2 {
+    
+    background-position: 0;
+    padding: 0;
+}
+
 header {
+    text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
-    font-size: 34px;
+    font-size: 75px;
 }
 
     header p {
         color: yellow;
-        font-size: 24px;
+        font-size: 32px;
     }
 
 aside {
     float: right;
-}
-    
-h2 {
-    text-decoration: underline;
 }
 
 
 
 article h2 {
     font-size: 45px;
-    color: black;
+    color: whitesmoke;
     padding: 0;
 }
 
 aside h2 {
     font-size: 45px;
-    color: black;
+    color: whitesmoke;
     padding: 0;
+}
+
+
+nav {
+    background-color: darkblue;
 }
 
 ol li {
@@ -78,7 +84,7 @@ ol li {
 }
 
 nav li:hover {
-    background-color: darkblue;
+    background-color: cornflowerblue;
 }
 
 nav ul li {
@@ -86,9 +92,8 @@ nav ul li {
 }
 
     nav ul li a {
-        color: blue;
-        padding: .4em 1em;
-        display: block;
+        color: whitesmoke;
+        padding: 1.5em 7em;
     }
 
 section b {
@@ -112,14 +117,11 @@ section b {
     font-size: 32px;
 }
 
-nav ul {
-    text-decoration: underline;
-}
-
 
 .learn {
     text-align: center;
 }
+
 
 footer p a:hover {
     color: black;
