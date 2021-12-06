@@ -67,10 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\blackchalkboard.jpg" />
-    <Content Include="images\bookdeskchalkboad.jpg" />
+    <Content Include="images\bookhead.jpg" />
     <Content Include="images\books.jpg" />
     <Content Include="images\chalkboard.jpg" />
+    <Content Include="images\classroom.jpg" />
     <Content Include="images\corkboard.jpg" />
     <Content Include="images\cpubooks.jpg" />
     <Content Include="images\educationblocks.jpg" />
@@ -79,6 +79,7 @@
     <Content Include="images\girl3.jpg" />
     <Content Include="images\globeedu.jpg" />
     <Content Include="images\gradfig.jpg" />
+    <Content Include="images\greenchalkboard.jpg" />
     <Content Include="images\guy1.jpg" />
     <Content Include="images\guy2.jpg" />
     <Content Include="images\guy3.jpg" />

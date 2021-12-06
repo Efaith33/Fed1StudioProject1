@@ -35,7 +35,8 @@ li, footer {
 }
 
 h1 {
-    color: yellow;
+    text-shadow: 3px -2px 5px black;
+    color: orange;
 }
 
 h2 {
@@ -44,7 +45,11 @@ h2 {
     padding: 0;
 }
 
+
 header {
+    background-image: url('../images/greenchalkboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
@@ -52,7 +57,8 @@ header {
 }
 
     header p {
-        color: yellow;
+        text-shadow: 3px -2px 5px black;
+        color: orange;
         font-size: 32px;
     }
 
@@ -67,6 +73,9 @@ article h2 {
     color: whitesmoke;
     padding: 0;
 }
+article h3 {
+    
+}
 
 aside h2 {
     font-size: 45px;
@@ -76,15 +85,12 @@ aside h2 {
 
 
 nav {
-    background-color: darkblue;
-}
-
-ol li {
-    color: blue;
+    border:2px solid orange;
+    background-color: black;
 }
 
 nav li:hover {
-    background-color: cornflowerblue;
+    background-color: orange;
 }
 
 nav ul li {
@@ -93,15 +99,18 @@ nav ul li {
 
     nav ul li a {
         color: whitesmoke;
-        padding: 1.5em 7em;
+        padding: 1.5em 7.2em;
     }
+ol li {
+    color: blue;
+}
 
 section b {
     font-size: 24px;
 }
-
-#Contacts {
-    color: blue;
+section  {
+    border: 2px solid;
+    box-shadow: 5px -2px 5px black;s
 }
 
 .personalinfo {
