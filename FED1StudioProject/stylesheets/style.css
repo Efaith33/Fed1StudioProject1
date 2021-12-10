@@ -1,11 +1,17 @@
 ﻿
 
 #headerOverlay {
-    background-position: 0;
-    padding: 0;
+    background-image: url('../images/edulogo.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat
 }
-
-
+header span i {
+    padding: 10.5px 25.5px;
+    margin-top: .2px;
+    float: right;
+    color: dodgerblue;
+}
 
 body {
     background: url(../images/gradfig.jpg) no-repeat center center fixed;
@@ -17,16 +23,21 @@ main {
     font-size: 30px;
     color: black;
 }
+div article {
+    float:left;
+}
+div span {
+    float: left;
+}
 
 article h2 {
+    text-decoration: underline;
     font-size: 30px;
 }
 
-
-
 h2, header {
     text-align: center;
-    color: whitesmoke;
+    color: black;
     font: bold;
 }
 
@@ -34,73 +45,88 @@ li, footer {
     color: black;
 }
 
-h1 {
+h1 { 
     text-shadow: 3px -2px 5px black;
     color: orange;
 }
 
 h2 {
-    
+    text-decoration: underline;
     background-position: 0;
     padding: 0;
 }
 
+h4 {
+    text-shadow: 3px -2px 5px black;
+    color: orange;
+}
 
 header {
-    background-image: url('../images/greenchalkboard.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
-    font-size: 75px;
+    font-size: 45px;
 }
 
     header p {
         text-shadow: 3px -2px 5px black;
         color: orange;
-        font-size: 32px;
+        font-size: 35px;
     }
 
 aside {
     float: right;
 }
 
-
-
 article h2 {
     font-size: 45px;
-    color: whitesmoke;
+    color: black;
     padding: 0;
 }
+
 article h3 {
+}
+
+
+
+table h4 {
+    color: orange;
+    text-shadow: 3px -2px 5px black;
     
 }
 
-aside h2 {
-    font-size: 45px;
-    color: whitesmoke;
-    padding: 0;
+table td {
+    border: 4px solid;
+    text-align: center;
 }
 
+table tr th {
+    text-align: center;
+}
+
+span i:hover {
+    background-color: powderblue;
+    
+}
 
 nav {
-    border:2px solid orange;
+    border: 2px solid orange;
     background-color: black;
 }
 
-nav li:hover {
-    background-color: orange;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-    nav ul li a {
-        color: whitesmoke;
-        padding: 1.5em 7.2em;
+    nav li:hover {
+        background-color: orange;
     }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            color: whitesmoke;
+            padding: .5em 4.0em;
+        }
+
 ol li {
     color: blue;
 }
@@ -108,9 +134,18 @@ ol li {
 section b {
     font-size: 24px;
 }
-section  {
+
+section div {
     border: 2px solid;
-    box-shadow: 5px -2px 5px black;s
+    box-shadow: 5px -2px 5px black;
+}
+
+section h1 {
+    text-align:center;
+}
+
+.titlerow {
+    table-layout: fixed;
 }
 
 .personalinfo {
@@ -126,18 +161,77 @@ section  {
     font-size: 32px;
 }
 
-
 .learn {
     text-align: center;
 }
 
-
 footer p a:hover {
     color: black;
-    background-color: darkblue;
+    background-color: orange;
     color: black;
 }
 
 footer {
-    text-align: center;
+    text-align: left;
 }
+footer aside {
+    float: right;
+    height: 0px;
+    width: 100px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 30px;
+    z-index: 1030;
+    position: fixed;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-rl;
+    color: white;
+    font-weight: bold;
+}
+

@@ -4,7 +4,7 @@
     <title>Educational Services</title>
     <link rel="icon" type="image/x-icon" href="/images/pencilpaperfavicon.ico" />
     <meta charset="utf-8" />
-
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="stylesheets/style.css" rel="stylesheet" /> <!--direct link to my css, pages talk to each other-->
 
 
@@ -12,10 +12,15 @@
 
 <body>
     <header>
-
-        <h1>Higher Learning</h1>
-        <p>Looking Forward To Your Future</p> <!--style,font-->
-
+        <span>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </span>
+        <div id="headerOverlay">
+            <h1>Higher Learning</h1>
+            <p>Education is Power</p>
+        </div>
 
     </header>
 
@@ -34,84 +39,127 @@
             <li>
                 <a href="/Contact.html"> Contact</a>
             </li>
-            <li>
-                <a href="/Resources.html">Resources</a>
-            </li>
-
         </ul>
     </nav>
-    <main> <!-- Want to make 4 sections of 3 to float, each section on a corkboard?-->
-        <article>
-            <h2 id="The Team">The Team</h2>
-            <section>
-                <h3 class="headingstyle"> 2 technical instructors, 1 techanical lead</h3>
-                <br />
-                <b>Professor:</b>
-                <div>
-                    <p style="color: black">Brandon</p>
-                    <img src="images/guy1.jpg" />
-                    <!-- maybe inside another line to lead-->
-                </div>
-                <b>JR Professor:</b>  <!--hyperlink each individua?l-->
-                <div>
-                    <p style="color: black">Darien</p>
-                    <img src="images/guy2.jpg" />
-                    <p style="color: black">Gregory</p>
-                    <img src="images/guy3.jpg" />
-                </div>
-                <img src="images/corkboard.jpg" />
-            </section>
-            <section>
-                <h3 class="headingstyle">2 Sales, 1 Sales lead</h3>
-                <b>Admissions:</b>
-                <div>
-                    <p style="color:black" ;>Parker</p>
-                    <img src="images/guy4.jpg" />
-                    <p style="color:black" ;>Paxton</p>
-                    <img src="images/guy5.jpg" />
-                </div>
-                <b>Financial Aid:</b>
-                <div>
-                    <p style="color:black" ;>Adam</p>
-                    <img src="images/guy6.jpg" />
-                </div>
-                <img src="images/corkboard.jpg" />
-            </section>
-            <section>
-                <h3 class="headingstyle"> 2 administration and support staff, 1 operations lead</h3>
-                <b>Principal and Assistant Principal:</b>
-                <div>
-                    <p style="color: black" ;>Justin</p>
+    <main>
+        <!-- Want to make 4 sections of 3 to float, each section on a corkboard?-->
+        <section>
+
+            <h2>The Team</h2>
+            <div class="TeamContainer">
+            <h1>Leadership</h1>
+                <h3>Principle and Asst. Principal</h3>
+
+                <h4>Mr. Justin Miller</h4>
+                <p>
                     <img src="images/guy7.jpg" />
-                    <p style="color: black" ;>Hanna</p>
-                    <img src="images/girl1.jpg" />
-                </div>
-                <b>Counselor</b>
-                <div>
-                    <p style="color: black" ;>Alicia</p>
-                    <img src="images/girl2.jpg" />
-                </div>
-                <img src="images/corkboard.jpg" />
-            </section>
-            <section>
-                <h3 class="headingstyle"> 2 executive leadership, 1 company president</h3>
-                <b>Superintendents:</b>
-                <div>
-                    <p style="color:black" ;>Pam</p>
-                    <img src="images/girl3.jpg" />
-                    <p style="color:black" ;>Greg</p>
-                    <img src="images/guy8.jpg" />
-                </div>
-                <b>CEO:</b>
-                <div>
-                    <p style="color:black" ;>Eric</p>
-                    <img src="images/guy9.jpg" />
-                </div>
-                <img src="images/corkboard.jpg" />
-            </section>
-        </article>
-        </main>
+                    Mr. Miller has provided leadership and support to his colleagues informally over the years. His steady approach and reflective nature make him approachable to all. One of his greatest strengths is his willingness to provide input and ask clarifying questions. As a seasoned leader in our district, he offers valued perspective and insight into various situations and will often provide voice to the discussions. Mr. Miller is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.
+                </p>
+                <h4>Ms. Hanna Jones</h4>
+                <p>
+                <img src="images/girl1.jpg" />
+                    Ms.Jones exemplifies positive, professional leadership that makes a difference in the lives of the students and the staff. She is always focused on student success. She has led the implementation for new programs and best practices for teaching and learning. Ms. Jones builds positive relationships with all every student.  "School success is all about leadership! Ms. Jones believes that students at Educational Services can achieve at high levels. She has consistently shown that her students can excel as evidenced by her past AIMS data and current AzMERIT scores which show her above state averages in math and English Language Arts. She is a member of the community and models how to lead a school using best practices to drive her school continuous improvement plan.
+                </p>
+                <h4>Mrs. Alicia Shelton</h4>
+                <p>
+                <img src="images/girl2.jpg" />
+                    Mrs. Shelton represents the future of educational leadership. She has gained a reputation in leadership circles as an excellent Principal. This is because she possesses the skills and attributes of leadership. She knows curriculum, instruction and assessment and is able to coach others in this area. She knows how to bring teams of teachers, parents or community partners together to achieve the schools goals. Mrs. Shelton has provided leadership and support to her colleagues informally over the years. Her steady approach and reflective nature make her approachable to all. One of her greatest strengths is his willingness to provide input and ask clarifying questions. As a seasoned leader in our district, she offers valued perspective and insight into various situations and will often provide voice to the discussions.
+                </p>
+
+            </div>
+            <div class="TeamContainer">
+
+                <h1>Admissions</h1>
+                <h4>Mr. Parker Martin</h4>
+                <p>
+                <img src="images/guy4.jpg" />
+                    Mr. Martin is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.  Mr. Martin has great leadership qualities. He took a school that had a "D" label and turned it around in just one year, achieving a high "B" label. He has built strong positive community ties and relationships. He is recognized as a leader, not only within the district, but across the state. He has served very willingly and effectively as a mentor to aspiring and practicing school leaders.
+                </p>
+                <h4>Mr. Paxton Anderson</h4>
+                <p>
+                <img src="images/guy5.jpg" />
+                    Mr. Anderson has great leadership qualities. He took a school that had a "D" label and turned it around in just one year, achieving a high "B" label. He has built strong positive community ties and relationships. He is recognized as a leader, not only within the district, but across the state. He has served very willingly and effectively as a mentor to aspiring and practicing school leaders.  Mr. Anderson is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.
+                </p>
+                <h4>Mr. Adam Brown</h4>
+                <p>
+                <img src="images/guy6.jpg" />
+                    Mr Brown has provided leadership and support to his colleagues informally over the years. His steady approach and reflective nature make him approachable to all. One of his greatest strengths is his willingness to provide input and ask clarifying questions. As a seasoned leader in our district, he offers valued perspective and insight into various situations and will often provide voice to the discussions. Mr.Brown has provided leadership and support to his colleagues informally over the years. His steady approach and reflective nature make him approachable to all. One of his greatest strengths is his willingness to provide input and ask clarifying questions. As a seasoned leader in our district, he offers valued perspective and insight into various situations and will often provide voice to the discussions.
+                </p>
+            </div>
+
+            <div class="TeamContainer">
+            <h1>Administration</h1>
+                
+                <h4>Ms. Pam Brown</h4>
+                <p>
+                <img src="images/girl3.jpg" />
+                    "School success is all about leadership! Ms. Brown believes that students at Educational Services can achieve at high levels. She has consistently shown that her students can excel as evidenced by her past AIMS data and current AzMERIT scores which show her above state averages in math and English Language Arts. She is a member of the community and models how to lead a school using best practices to drive her school continuous improvement plan.   Mrs. Pam represents the future of educational leadership. She has gained a reputation in leadership circles as an excellent Principal. This is because she possesses the skills and attributes of leadership. She knows curriculum, instruction and assessment and is able to coach others in this area. She knows how to bring teams of teachers, parents or community partners together to achieve the schools goals.
+                </p>
+                <h4>Mr. Greg Bundy</h4>
+                <p>
+                <img src="images/guy8.jpg" />
+                    Mr. Bundy is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.  Mr. Bundy has great leadership qualities. He took a school that had a "D" label and turned it around in just one year, achieving a high "B" label. He has built strong positive community ties and relationships. He is recognized as a leader, not only within the district, but across the state. He has served very willingly and effectively as a mentor to aspiring and practicing school leaders.
+                </p>
+                <h4>Mr. Eric Taylor</h4>
+                <p>
+                <img src="images/guy9.jpg" />
+                    Mr. Taylor has great leadership qualities. He took a school that had a "D" label and turned it around in just one year, achieving a high "B" label. He has built strong positive community ties and relationships. He is recognized as a leader, not only within the district, but across the state. He has served very willingly and effectively as a mentor to aspiring and practicing school leaders.  Mr. 
+                    Taylor is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.
+                </p>
+            </div>
+            <div class="TeamContainer">
+                <h1>Professors</h1>
+                <h4>Mr. Brandon Smith</h4>
+                <p>
+                <img src="images/guy1.jpg" />
+                    Mr. Smith is a professor of Math and History at the University of Kansas City. He is in his 8th year with us here at Educaional Services. Mr. Smith teaches all beginning, intermediate and advanced courses of Math and history.   Mr Smith has provided leadership and support to his colleagues informally over the years. His steady approach and reflective nature make him approachable to all. One of his greatest strengths is his willingness to provide input and ask clarifying questions. Mr Smith is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.
+                </p>
+                <h4>Mr. Darien Bean</h4>
+                <p>
+                <img src="images/guy2.jpg" />
+                    Mr. Bean is a professor of Economics and Computer Science at the University of Missouri. He is in his 4th year with us here at Educaional Services. Mr. Smith teaches all beginning, intermediate and advanced courses of Econamics and Computer Science. Mr. Bean is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.  Mr. Bean is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.
+                </p>
+                <h4>Mr. Gregory Johnson</h4>
+                <p>
+                <img src="images/guy3.jpg" />
+                    Mr. Johnson is a professor of Foreign Language and Music at the University of Illinois. He is in his 15th year with us here at Educaional Services. Mr. Smith teaches all beginning, intermediate and advanced courses of Foreign Language and Music.  Mr. Johnson has great leadership qualities. He took a school that had a "D" label and turned it around in just one year, achieving a high "B" label. He has built strong positive community ties and relationships. He is recognized as a leader, not only within the district, but across the state. He has served very willingly and effectively as a mentor to aspiring and practicing school leaders.  Mr. Johnson is viewed as a developmentally responsive leader. He has the ability to create professional learning communities of teachers that focus on all students' intellectual and social growth. He demonstrates a strong commitment to academic excellence by guaranteeing all students are provided with curriculum, instruction, assessment and supports they need to meet rigorous achievement standards.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+
     <footer>
+        <div id="admin-btn" class="button" onclick="openAdminNav()">
+            <span class="vertical-text">ADMIN BY DEPARTMENT</span>
+        </div>
+
+        <div id="admin-nav" class="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">&times;</a>
+            <a href="#">Leadership</a>
+            <a href="#">Admissions</a>
+            <a href="#">Administration</a>
+            <a href="#">Profesors</a>
+
+        </div>
+
+        <script type="text/javascript">
+        function openAdminNav() {
+            document.getElementById('admin-btn').style.display = "none";
+            document.getElementById('admin-nav').style.width = "250px";
+        }
+
+        function closeAdminNav() {
+            document.getElementById('admin-btn').style.display = "block";
+            document.getElementById('admin-nav').style.width = "0";
+        }
+        </script>
+        <aside>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </aside>
         <p>
             <a href="#">Go To Top</a>
         </p>
