@@ -6,6 +6,7 @@
     background-size: contain;
     background-repeat: no-repeat
 }
+
 header span i {
     padding: 10.5px 25.5px;
     margin-top: .2px;
@@ -84,9 +85,9 @@ article h2 {
     padding: 0;
 }
 
-article h3 {
+table p {
+    font-size: large;
 }
-
 
 
 table h4 {
@@ -100,7 +101,7 @@ table td {
     text-align: center;
 }
 
-table tr th {
+table article {
     text-align: center;
 }
 
@@ -149,10 +150,12 @@ section h1 {
 }
 
 .personalinfo {
+    font-size: 25px;
     text-align: center;
 }
 
 .socialmediainfo {
+    font-size: 25px;
     text-align: center;
 }
 
@@ -167,7 +170,7 @@ section h1 {
 
 footer p a:hover {
     color: black;
-    background-color: orange;
+    background-color: powderblue;
     color: black;
 }
 
@@ -178,6 +181,10 @@ footer aside {
     float: right;
     height: 0px;
     width: 100px;
+}
+
+footer aside i:hover {
+    background-color: powderblue;
 }
 
 .sidenav {
