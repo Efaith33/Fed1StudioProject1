@@ -93,11 +93,10 @@
     <Content Include="images\math1.jpg" />
     <Content Include="images\openbooktree.jpg" />
     <Content Include="images\pencilpaperfavicon.ico" />
-    <Content Include="index.html" />
     <Content Include="Contact.html" />
     <Content Include="TheTeam.html" />
     <Content Include="Classes.html" />
-    <Content Include="Home.html" />
+    <Content Include="Index.html" />
     <Content Include="stylesheets\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -114,7 +113,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Fonts.css\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

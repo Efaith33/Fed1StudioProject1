@@ -12,9 +12,9 @@ header span i {
     margin: 0px 50px 0px 0px;
 }
 
-header span i:hover {
-    color: powderblue;
-}
+    header span i:hover {
+        color: powderblue;
+    }
 
 header div h1 p {
     padding-left: 50px;
@@ -45,7 +45,7 @@ article h2 {
     font-size: 30px;
 }
 
-h1 {   
+h1 {
     text-shadow: 3px -2px 5px black;
     color: orange;
 }
@@ -87,6 +87,10 @@ article h2 {
     padding: 0;
 }
 
+article div p i {
+    margin-right: .5em;
+}
+
 table p {
     font-size: large;
 }
@@ -123,9 +127,9 @@ table article {
         color: orange
     }
 
-#navBar li:hover a {
-    color: orange;
-}
+    #navBar li:hover a {
+        color: orange;
+    }
 
 footer nav ul li {
     text-align: center;
@@ -138,6 +142,7 @@ footer p {
 footer li a {
     padding-right: 4em;
 }
+
 footer li i {
     margin: 0px 5px 0px 0px;
 }
@@ -156,6 +161,16 @@ section div {
     border: 2px solid;
     box-shadow: 5px -2px 5px black;
 }
+
+    section div article {
+        display: inline-block;
+        margin-right: 1em;
+    }
+
+    section div span {
+        display: inline-block;
+        margin-right: 1em;
+    }
 
 section h1 {
     text-align: center;
