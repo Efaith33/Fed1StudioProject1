@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bookhead.jpg" />
-    <Content Include="images\chalkboard2.jpg" />
     <Content Include="images\chalkboard3.png" />
     <Content Include="images\computerscience2.jpg" />
     <Content Include="images\economics.jpg" />
