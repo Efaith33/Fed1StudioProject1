@@ -261,3 +261,7 @@ section h1 {
     color: white;
     font-weight: bold;
 }
+
+.active {
+    text-decoration-color: orange; 
+}
